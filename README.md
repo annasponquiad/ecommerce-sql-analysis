@@ -52,6 +52,12 @@ Some examples include:
 
 The full SQL used to answer these questions can be found in `ecommerce_analysis.sql`.
 
+## Tools
+
+- MySQL
+- MySQL Workbench
+- GitHub
+
 ## Project Files
 
 - `ecommerce_schema.sql` — Creates the database structure, tables, keys and constraints.
