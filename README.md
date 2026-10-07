@@ -24,3 +24,14 @@ For example, after creating `customer_order` and `product`, there was no way to 
 I therefore created `order_products`, using `order_id` and `product_id` as a composite primary key so that each row could uniquely identify a specific product within a specific order. This table also allowed me to add `quantity`, which belongs to the relationship between an order and a product rather than to either table individually.
 
 I used the same approach for the other many-to-many relationships in the database, creating bridge tables to connect products with suppliers, inventory locations and third-party sellers.
+
+## Skills Demonstrated
+
+- **Database Design:** EER modelling, relational database design, table relationships and cardinality
+- **Keys & Relationships:** Primary keys, foreign keys, composite primary keys, many-to-many relationships and bridge tables
+- **Data Integrity:** Data types, `NOT NULL`, `UNIQUE`, `CHECK`, `DEFAULT` and referential integrity
+- **SQL Querying:** `SELECT`, `WHERE`, `ORDER BY`, calculated fields and filtering
+- **Joins:** Joining multiple related tables using `INNER JOIN`
+- **Aggregation:** `COUNT`, `SUM`, `AVG`, `MIN`, `MAX`, `GROUP BY` and `HAVING`
+- **Data Validation:** Testing constraints, validating inserted data and checking query results
+- **Database Implementation:** Creating and populating a relational database in MySQL
