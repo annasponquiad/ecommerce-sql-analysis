@@ -14,3 +14,11 @@ With the database populated and relationships established, I used AI-generated b
 ## Database Design
 
 ![E-commerce EER Diagram](EER_diagram_ecommerce_SQL_project.png)
+
+When creating the EER diagram, I noticed that as I was designing the main entities, there were some relationships that could not be represented without creating additional tables.
+
+For example, after creating `customer_order` and `product`, there was no way to link the two tables. I considered adding `product_id` to `customer_order`, but quickly realised this would create a problem because an order can contain more than one product. As one order can have many products, and one product can also appear in many orders, I needed a bridge table to connect them.
+
+I therefore created `order_products`, using `order_id` and `product_id` as a composite primary key so that each row could uniquely identify a specific product within a specific order. This table also allowed me to add `quantity`, which belongs to the relationship between an order and a product rather than to either table individually.
+
+I used the same approach for the other many-to-many relationships in the database, creating bridge tables to connect products with suppliers, inventory locations and third-party sellers.
