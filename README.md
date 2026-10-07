@@ -3,13 +3,15 @@ Relational database design and SQL analysis project based on an e-commerce busin
 
 ## Project Overview
 
-This project involved designing and building a relational database for an e-commerce business that needed to manage customers, products, orders, inventory, suppliers and third-party sellers, as well as the relationships between them.
+I was given an e-commerce scenario that needed to manage customers, products, orders, inventory, suppliers and third-party sellers, as well as the relationships between them.
 
-I began by creating an EER diagram based on a template provided as part of the DIO SQL course I was undertaking. I used the core parent entities from the original scenario, but adapted the model by creating additional relationship tables to support the relationships I wanted to represent, defining the appropriate primary and foreign keys for the design.
+I started by creating an EER diagram based on a template provided by the DIO SQL course I was undertaking at the time. I used the main tables from the original scenario as my starting point, but as I worked through the relationships, I realised I would need to create additional bridge tables for the database to work in the way I wanted.
 
-Once the model was complete, I manually created the database and its tables in MySQL, defining the required attributes, data types and constraints. I then populated the database with synthetic data created specifically for the project and validated the tables to ensure that keys, constraints and data-quality checks were working as intended.
+Once I was happy with the diagram, I manually created the database and each of its tables in MySQL, making sure the attributes, primary and foreign keys, data types and constraints were set correctly.
 
-With the database populated and relationships established, I used AI-generated business questions based on the dataset as prompts for analysis, then independently translated those questions into SQL queries to retrieve, aggregate and analyse the data.
+I then created synthetic data specifically for the project and used it to populate the database. After loading the data, I checked the tables and tested the database to make sure the keys, constraints and checks were behaving as expected.
+
+Finally, I used AI to generate realistic business questions based on my dataset. I then worked through these questions independently, writing SQL queries to find the answers and using the results to understand what the data could tell me about the business.
 
 ## Database Design
 
