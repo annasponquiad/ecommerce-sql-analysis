@@ -35,3 +35,19 @@ I used the same approach for the other many-to-many relationships in the databas
 - **Aggregation:** `COUNT`, `SUM`, `AVG`, `MIN`, `MAX`, `GROUP BY` and `HAVING`
 - **Data Validation:** Testing constraints, validating inserted data and checking query results
 - **Database Implementation:** Creating and populating a relational database in MySQL
+
+## Business Questions
+
+Once the database was populated and tested, I started using SQL to answer business questions based on the data. I began with simpler questions and gradually worked my way up to more complex ones, where I needed to bring information from different tables together, perform calculations and group the data to find the answers.
+
+Some examples include:
+
+- Which customers have placed more than one order?
+- How much has each customer spent across all of their orders?
+- Which customers have spent more than £150?
+- What is the total value of each order?
+- Which supplier offers the lowest unit cost for each product?
+- What is the difference between the cheapest and most expensive supplier price for each product?
+- Which products have generated more than £75 in revenue?
+
+The full SQL used to answer these questions can be found in `ecommerce_analysis.sql`.
