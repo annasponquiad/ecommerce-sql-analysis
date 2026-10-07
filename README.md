@@ -62,5 +62,15 @@ The full SQL used to answer these questions can be found in `ecommerce_analysis.
 
 - `ecommerce_schema.sql` — Creates the database structure, tables, keys and constraints.
 - `ecommerce_data.sql` — Populates the database with the synthetic data used for the project.
+
+## Project Background
+
+This project started as an e-commerce database modelling exercise from the DIO SQL course I was completing at the time.
+
+The course provided the original business scenario and a database model containing the main tables in Portuguese. I used these as the starting point for my project, but decided to rebuild the database in English and develop my own version of the model.
+
+As I worked through the relationships, I added the bridge tables and attributes I needed for my design, created the keys and constraints, and then manually built and populated the database in MySQL.
+
+I continued developing the project beyond the original modelling exercise by testing the database and using it to answer a series of business questions with SQL.
 - `ecommerce_analysis.sql` — Contains the SQL queries used to answer the business questions.
 - `EER_diagram_ecommerce_SQL_project.png` — Shows the database structure and relationships between the tables.
