@@ -62,6 +62,8 @@ The full SQL used to answer these questions can be found in `ecommerce_analysis.
 
 - `ecommerce_schema.sql` — Creates the database structure, tables, keys and constraints.
 - `ecommerce_data.sql` — Populates the database with the synthetic data used for the project.
+- `ecommerce_analysis.sql` — Contains the SQL queries used to answer the business questions.
+- `EER_diagram_ecommerce_SQL_project.png` — Shows the database structure and relationships between the tables.
 
 ## Project Background
 
@@ -72,5 +74,4 @@ The course provided the original business scenario and a database model containi
 As I worked through the relationships, I added the bridge tables and attributes I needed for my design, created the keys and constraints, and then manually built and populated the database in MySQL.
 
 I continued developing the project beyond the original modelling exercise by testing the database and using it to answer a series of business questions with SQL.
-- `ecommerce_analysis.sql` — Contains the SQL queries used to answer the business questions.
-- `EER_diagram_ecommerce_SQL_project.png` — Shows the database structure and relationships between the tables.
+
