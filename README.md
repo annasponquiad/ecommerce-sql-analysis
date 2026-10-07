@@ -51,3 +51,10 @@ Some examples include:
 - Which products have generated more than £75 in revenue?
 
 The full SQL used to answer these questions can be found in `ecommerce_analysis.sql`.
+
+## Project Files
+
+- `ecommerce_schema.sql` — Creates the database structure, tables, keys and constraints.
+- `ecommerce_data.sql` — Populates the database with the synthetic data used for the project.
+- `ecommerce_analysis.sql` — Contains the SQL queries used to answer the business questions.
+- `EER_diagram_ecommerce_SQL_project.png` — Shows the database structure and relationships between the tables.
